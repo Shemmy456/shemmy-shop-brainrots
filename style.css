@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 0, 255);
+}
+
+.poster {
+  background-color: #111;
+  border: 2px solid magenta;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.poster img {
+  width: 200px;
+  border-radius: 8px;
+} button {
+  background-color: magenta;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 0 10px magenta;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff55ff;
+  box-shadow: 0 0 20px #ff55ff, 0 0 30px cyan;
+}
+
+h1 {
+  text-shadow: 0 0 10px magenta, 0 0 20px cyan;
+}
+
+.poster {
+  box-shadow: 0 0 10px magenta;
+  transition: transform 0.2s;
+}
+
+.poster:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px magenta, 0 0 30px cyan;
+}
